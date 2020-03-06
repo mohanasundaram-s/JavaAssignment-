@@ -1,30 +1,27 @@
-//write a program to print 1 & 0 in chessboard pattern 
+///write a program to print 1 & 0 in chessboard pattern 
 public class chess{
-    int rows, cols, i, j, k;
-    public static void main(String ar[]){
+        public static void main(String ar[]){
 
-            k = 1;
-            rows = 4;
-            cols = 4 ;
+            int  k = 1;
+            int  rows = 4;
+            int cols = 4 ;
             for(int i=1;i<=rows; i++){
                 for(int j=1; j<=cols; j++){
                     if(k == 1){
-                        System.out.println("1");
+                        System.out.print("1");
                     }
                     else{
-                        System.out.println("0");
+                        System.out.print("0");
                     }
                     k *= -1;
                 }
                 if(cols % 2 == 0){
                     k *= -1;
                 }
-                System.out.print("\n");
+                System.out.println("\n");
             }
-
-            return 0;
-
-
-
     }
 }
+
+
+   
