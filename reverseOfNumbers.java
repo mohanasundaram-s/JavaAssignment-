@@ -17,3 +17,6 @@ class reverseOfNumbers{
         System.out.println("Reverse number :"+reverse);
     }
 }
+/*Enter the number:123456789          
+Reverse number :987654321
+*/
