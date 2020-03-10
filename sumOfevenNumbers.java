@@ -20,3 +20,7 @@ class sumOfevenNumbers{
         System.out.println("sum of even numbers" +"="+sumOfEvenNumbers);
     }
 }
+/*
+Enter the number:123456
+sum of even numbers=12
+*/
