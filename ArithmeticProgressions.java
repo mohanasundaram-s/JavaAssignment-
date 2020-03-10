@@ -30,3 +30,10 @@ class ArithmeticProgression{
             System.out.println("...");
     }
 }
+/*Enter the  starting number:2
+Enter the Difference:3
+Enter the NoOfElement:5
+
+The Arithmetic Progression is as follows :
+2,5,8,11,14,...
+*/
