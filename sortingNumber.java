@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-class maximumNumber{
+class sortingNumberr{
     public static void main(String a[]){
         Scanner Input = new Scanner(System.in);
         System.out.print("Enter the How many numbers : ");
