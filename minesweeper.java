@@ -4,8 +4,8 @@ class content{
     int row = 7;
     int column = 7;
     int[][] mines=new int[row][column];
-    String[][] showArray=new int[row][column];
-    public bombPlacing(){
+    String[][] showArray=new String[row][column];
+    public content(){
         mines[0][1]=-1;
         mines[1][3]=-1;
         mines[2][6]=-1;
@@ -66,10 +66,10 @@ class content{
              show(showArray);
              gameComplete=false;
         }
-        else if(showArray[sc][sa]==-1 && inp.equals("n")){
-			for(int k=0;i<showArray.length;k++){
-				for(int l=0;j<showArray.length;l++){
-					if(showArray[k][l]==-1){
+        else if(showArray[sc][sa].equals("-1") && inp.equals("n")){
+			for(int k=0;k<showArray.length;k++){
+				for(int l=0;l<showArray.length;l++){
+					if(showArray[k][l].equals("-1")){
 						showArray[k][l]="B";
 					}
 				}
@@ -90,7 +90,7 @@ class content{
             int columns =Input.nextInt();
             System.out.print("Enter the row :");
             int rows =Input.nextInt();
-            System.out.print("Enter the flag or open ? :");
+            System.out.print("fix the flag ? y/n :");
             String value =Input.next(); 
             checkStatus(columns,rows,value);
                     
